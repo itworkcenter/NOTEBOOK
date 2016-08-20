@@ -47,10 +47,11 @@ path="C:\MongoDb\bin>mongod.exe"
 ```
 >mongod --help
 ```
-You can find mongod --install command to install window service.
+You can find "mongod --install" command to install window service.
 
 ```
 >mongod -f ..\mongod.cfg --install
+```
 
 3.**Testing**
 
