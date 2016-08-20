@@ -60,7 +60,7 @@ net stop MongoDB
 ```
 **To remove MongoDB Service**
 ```
-d:\mongodb\bin>mongod --remove
+C:\MongoDb\bin>mongod --remove
 ```
 
 3.**Testing**
