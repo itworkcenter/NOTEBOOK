@@ -8,6 +8,7 @@ C:\>md data
 C:\md data\db
 ```
 2.**Specify path**
+ 
  a.**Directly:**
  
 Suppose my installation folder is D:\set up\mongodb
