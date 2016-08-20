@@ -37,6 +37,12 @@ net:
 ```
 C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
 ```
+**You can set up Environment Variables for "mongod.exe" in Window System.**
+
+```
+path="C:\MongoDb\bin>mongod.exe"
+```
+
 3.**Testing**
 
 Now to run the mongodb you need to **open another command prompt** and **issue the following command**.
