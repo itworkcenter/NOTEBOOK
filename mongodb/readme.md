@@ -42,6 +42,15 @@ C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
 ```
 path="C:\MongoDb\bin>mongod.exe"
 ```
+**You can set up Window Service for "mongod.exe",like below:**
+
+```
+>mongod --help
+```
+You can find mongod --install command to install window service.
+
+```
+>mongod -f ..\mongod.cfg --install
 
 3.**Testing**
 
