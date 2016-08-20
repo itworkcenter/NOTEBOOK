@@ -2,7 +2,7 @@
 Address:[https://www.mongodb.com/download-center?jmp=nav#community](https://www.mongodb.com/download-center?jmp=nav#community)
 
 ## Install MongoDB On Windows
-1.**Install**
+1.**Create db path**
 ```
 C:\>md data
 C:\md data\db
@@ -11,12 +11,11 @@ C:\md data\db
  
  a.**Directly:**
  
-Suppose my installation folder is D:\set up\mongodb
+Suppose my installation folder is C:\MongoDB
 ```
-D:\>cd "set up"
-D:\set up>cd mongodb
-D:\set up\mongodb>cd bin
-D:\set up\mongodb\bin>mongod.exe --dbpath "d:\set up\mongodb\data" 
+C:\>cd "MongoDB"
+C:\MongoDB>cd bin
+C:\MongoDB\bin>mongod.exe --dbpath "d:\set up\mongodb\data" 
 ```
 This will show waiting for connections message on the console output indicates that the mongod.exe process is running successfully.
 
@@ -60,7 +59,7 @@ Now to run the mongodb you need to **open another command prompt** and **issue t
 
 
 ```
-D:\set up\mongodb\bin>mongo.exe
+C:\MongoDB\bin>mongo.exe
 MongoDB shell version: 2.4.6
 connecting to: test
 >db.test.save( { a: 1 } )
