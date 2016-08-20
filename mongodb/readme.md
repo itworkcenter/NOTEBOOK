@@ -50,16 +50,22 @@ You can find "mongod --install" command to install window service.
 ```
 >mongod -f "c:\MongoDB\mongod.cfg" --install --serviceName "MongoDB"
 ```
-Or
+**To start MongoDB Service**
 ```
-mongod --dbpath "c:\MongoDB\data" --logpath "c:\MongoDB\data\log\mongodb.log" --install --serviceName "MongoDB"
+net start MongoDB
+```
+**To stop MongoDB Service**
+```
+net stop MongoDB
+```
+**To remove MongoDB Service**
+```
+d:\mongodb\bin>mongod --remove
 ```
 
 3.**Testing**
 
 Now to run the mongodb you need to **open another command prompt** and **issue the following command**.
-
-
 
 ```
 C:\MongoDB\bin>mongo.exe
