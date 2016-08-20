@@ -8,7 +8,8 @@ C:\>md data
 C:\md data\db
 ```
 2.**Specify path**
-
+ a.**Directly:**
+ 
 Suppose my installation folder is D:\set up\mongodb
 ```
 D:\>cd "set up"
@@ -18,9 +19,9 @@ D:\set up\mongodb\bin>mongod.exe --dbpath "d:\set up\mongodb\data"
 ```
 This will show waiting for connections message on the console output indicates that the mongod.exe process is running successfully.
 
-**Configure MongoDB**
+b.**Configure MongoDB**
 
-Add a text file called  c:\MongoDB\mongod.cfg that contains the following:
+Add a text file called  **c:\MongoDB\mongod.cfg** that contains the following:
 ```
 systemLog:
    destination: file
@@ -33,7 +34,7 @@ net:
    port: 27017
 ```
 ```
-\C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
+C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
 ```
 3.**Testing**
 
