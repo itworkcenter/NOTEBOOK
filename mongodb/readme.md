@@ -4,8 +4,7 @@ Address:[https://www.mongodb.com/download-center?jmp=nav#community](https://www.
 ## Install MongoDB On Windows
 1.**Create db path**
 ```
-C:\>md data
-C:\md data\db
+C:\MongoDB> md data\db
 ```
 2.**Specify path**
  
@@ -15,7 +14,7 @@ Suppose my installation folder is C:\MongoDB
 ```
 C:\>cd "MongoDB"
 C:\MongoDB>cd bin
-C:\MongoDB\bin>mongod.exe --dbpath "d:\set up\mongodb\data" 
+C:\MongoDB\bin>mongod.exe --dbpath "C:\MongoDB\data" 
 ```
 This will show waiting for connections message on the console output indicates that the mongod.exe process is running successfully.
 
