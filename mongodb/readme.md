@@ -48,7 +48,7 @@ path="C:\MongoDb\bin>mongod.exe"
 You can find "mongod --install" command to install window service.
 
 ```
->mongod -f c:\MongoDB\mongod.cfg --install
+>mongod -f c:\MongoDB\mongod.cfg --install --serviceName "MongoDB"
 ```
 
 3.**Testing**
