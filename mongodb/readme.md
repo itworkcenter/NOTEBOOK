@@ -10,7 +10,7 @@ C:\MongoDB> md data\db
  
  a.**Directly:**
  
-Suppose my installation folder is C:\MongoDB
+Suppose my installation folder is "**C:\MongoDB**"
 ```
 C:\>cd "MongoDB"
 C:\MongoDB>cd bin
@@ -20,7 +20,7 @@ This will show waiting for connections message on the console output indicates t
 
 b.**Configure MongoDB**
 
-Add a text file called  **c:\MongoDB\mongod.cfg** that contains the following:
+Add a text file called  "**c:\MongoDB\mongod.cfg**" that contains the following:
 ```
 systemLog:
    destination: file
