@@ -3,7 +3,7 @@
 
 ***CoffeeKup*** - Markup as CoffeeScript.
 
-***EJS*** - Embedded JavaScript templates
+***(EJS)[https://github.com/tj/ejs]*** - Embedded JavaScript templates
 
 ***Haml-js*** - Haml ported to server-side Javascript. This is a traditional server-side templating language.
 
@@ -15,7 +15,7 @@
 
 ***Mu2*** - A Mustache template engine for Node.js.
 
-***Swig*** - Swig is a template engine inspired by the Django syntax.
+***(Swig)[https://github.com/paularmstrong/swig]*** - Swig is a template engine inspired by the Django syntax.
 
 ***Templ8*** - JavaScript client/server template engine.
 
