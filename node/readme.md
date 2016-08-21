@@ -9,7 +9,7 @@
 
 ***Haml.js*** - Faster / Express compliant Haml implementation
 
-***Jade*** - Robust, elegant, feature rich template engine for Node.js.
+***[Jade](http://jade-lang.com/)*** - Robust, elegant, feature rich template engine for Node.js.
 
 ***JQTpl*** - Port of jQuery's Template Engine to Node.js.
 
