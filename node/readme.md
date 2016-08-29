@@ -22,3 +22,12 @@
 ***Whiskers*** - A mustachioed templating library.
 
 #REST API frameworks
+
+#Node forever
+|name|detail|notice
+|---|---|---|
+|forever| forever -w --watchDirectory /var/www/project_path start app.js | forever restart if change any file.
+
+#Node express --website server
+
+#Node swig --template engine
