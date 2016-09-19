@@ -9,7 +9,7 @@
 #Create service
 ##Step 1.
 ```
->cd /Library/LaunchDaemon
+>cd /Library/LaunchDaemons
 >touch yourdomain.plist
 >vi yourdomain.plist
 ```
@@ -36,6 +36,6 @@ yourdomain.plist for example as follow:
 ```
 ##Step 2.
 ```
->sudo launchctl load /Library/LaunchDaemon/yourdomain.plist
->sudo launchctl start /Library/LaunchDaemon/yourdomain.plist
+>sudo launchctl load /Library/LaunchDaemons/yourdomain.plist
+>sudo launchctl start /Library/LaunchDaemons/yourdomain.plist
 ```
