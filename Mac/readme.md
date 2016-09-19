@@ -34,6 +34,10 @@ yourdomain.plist for example as follow:
         </dict>
 </plist>
 ```
+check .plist
+```
+>plutil yourdomain.plist
+```
 ##Step 2.
 ```
 >sudo launchctl load /Library/LaunchDaemons/yourdomain.plist
