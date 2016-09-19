@@ -5,3 +5,6 @@
 |touch|create new, empty files.||
 |lsof|sudo lsof -i :27017||
 |kill|sudo kill -9 85||
+
+#Create service
+
