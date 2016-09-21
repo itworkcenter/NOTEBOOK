@@ -78,4 +78,35 @@ connecting to: test
 { "_id" : ObjectId(5879b0f65a56a454), "a" : 1 }
 >
 ```
-## Install MongoDB on Ubuntu
+## Install MongoDB on Mac
+
+###2. MongoDB data
+```
+$ sudo mkdir -p /data/db
+$ whoami
+mkyong
+$ sudo chown mkyong /data/db
+```
+**Note**
+Permissin is required to avoid following locking error :
+Unable to create/open lock file: /data/db/mongod.lock
+
+###3. Add mongodb/bin to $PATH
+Create a ~/.bash_profile file and assign /usr/local/mongodb/bin to $PATH environment variable, so that you can access Mongo’s commands easily.
+
+```
+$ cd ~
+$ pwd
+/Users/mkyong
+$ touch .bash_profile
+$ vim .bash_profile
+
+export MONGO_PATH=/usr/local/mongodb
+export PATH=$PATH:$MONGO_PATH/bin
+
+##restart terminal
+
+$ mongo -version
+MongoDB shell version: 2.2.3
+
+```
