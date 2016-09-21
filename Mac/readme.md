@@ -5,6 +5,9 @@
 |touch|create new, empty files.||
 |lsof|sudo lsof -i :27017||
 |kill|sudo kill -9 85||
+|whoami|review user||
+|chown|change permission|chown username|
+|chmod|change permission||
 
 #Create service
 ##Step 1.
