@@ -110,3 +110,44 @@ $ mongo -version
 MongoDB shell version: 2.2.3
 
 ```
+###5. Auto Start MongoDB
+
+```
+$ sudo vim /Library/LaunchDaemons/mongodb.plist
+```
+Puts following content :
+
+/Library/LaunchDaemons/mongodb.plist
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>mongodb</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/usr/local/mongodb/bin/mongod</string>
+  </array>
+  <key>RunAtLoad</key>
+  <true/>
+  <key>KeepAlive</key>
+  <true/>
+  <key>WorkingDirectory</key>
+  <string>/usr/local/mongodb</string>
+  <key>StandardErrorPath</key>
+  <string>/var/log/mongodb/error.log</string>
+  <key>StandardOutPath</key>
+  <string>/var/log/mongodb/output.log</string>
+</dict>
+</plist>
+```
+Load above job.
+```
+$ sudo launchctl load /Library/LaunchDaemons/mongodb.plist
+
+$ ps -ef | grep mongo
+    0    71     1   0  1:50PM ??         0:22.26 /usr/local/mongodb/bin/mongod
+  501   542   435   0  2:23PM ttys000    0:00.00 grep mongo
+```
