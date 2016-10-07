@@ -8,6 +8,11 @@
 |whoami|review user||
 |chown|change permission|chown username|
 |chmod|change permission||
+|launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd.
+||
+||launchctl load||
+||launchctl start||
+||launchctl list||
 
 #Create service
 ##Step 1. Create .plist file
