@@ -10,7 +10,7 @@
 |chmod|change permission||
 
 #Create service
-##Step 1.
+##Step 1. Create .plist file
 ```
 >cd /Library/LaunchDaemons
 >touch yourdomain.plist
@@ -41,7 +41,9 @@
 ```
 >plutil yourdomain.plist
 ```
-##Step 2.
+##Step 2. Modify authorization
+
+##Step 3. Start 
 ```
 >sudo launchctl load /Library/LaunchDaemons/yourdomain.plist
 >sudo launchctl start /Library/LaunchDaemons/yourdomain.plist
