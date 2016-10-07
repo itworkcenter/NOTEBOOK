@@ -8,10 +8,11 @@
 |whoami|review user||
 |chown|change permission|chown username|
 |chmod|change permission||
-|launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd.||
-||launchctl load||
-||launchctl start||
-||launchctl list||
+|launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd.
+launchctl load
+launchctl start
+launchctl list
+launchctl remove||
 |ls -l|review file permission||
 |crontab|run on a regular schedule||
 
