@@ -16,7 +16,7 @@
 >touch yourdomain.plist
 >vi yourdomain.plist
 ```
-yourdomain.plist for example as follow:
+***yourdomain.plist*** for example as follow:
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
@@ -37,7 +37,7 @@ yourdomain.plist for example as follow:
         </dict>
 </plist>
 ```
-check .plist
+***check*** .plist
 ```
 >plutil yourdomain.plist
 ```
