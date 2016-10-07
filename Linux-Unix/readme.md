@@ -1,5 +1,5 @@
 #Command
-|name|note|ex.|
+|name|note|e.g.|
 |---|---|---|
 |mv|file rename|***mv file1 file2***|
 
