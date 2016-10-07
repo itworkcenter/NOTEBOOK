@@ -16,6 +16,12 @@
 |crontab|run on a regular schedule||
 
 #Create service
+|LaunchAgents|Permission scope|
+|---|---|
+|~/Library/LaunchAgents/ |For a specific user|
+|/Library/LaunchAgents/ |For all users|
+|/System/Library/LaunchAgents/ |For OS X use only|
+
 ##Step 1. Create .plist file
 ```
 >cd /Library/LaunchDaemons
