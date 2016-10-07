@@ -13,6 +13,7 @@
 ||launchctl start||
 ||launchctl list||
 |ls -l|review file permission||
+|crontab|run on a regular schedule||
 
 #Create service
 ##Step 1. Create .plist file
