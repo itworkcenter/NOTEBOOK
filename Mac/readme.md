@@ -12,6 +12,7 @@
 ||launchctl load||
 ||launchctl start||
 ||launchctl list||
+|ls -l|review file permission||
 
 #Create service
 ##Step 1. Create .plist file
@@ -45,7 +46,7 @@
 ```
 >plutil yourdomain.plist
 ```
-##Step 2. Modify authorization
+##Step 2. Modify file permission
 
 ##Step 3. Start 
 ```
