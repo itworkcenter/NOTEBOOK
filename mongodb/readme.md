@@ -113,39 +113,40 @@ MongoDB shell version: 2.2.3
 ###5. Auto Start MongoDB
 
 ```
-$ sudo vim /Library/LaunchDaemons/mongodb.plist
+$ sudo vim /Library/LaunchAgents/___.mongo.plist
 ```
 Puts following content :
 
-/Library/LaunchDaemons/mongodb.plist
+/Library/LaunchAgents/___.mongo.plist
 ```
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
-  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-  <key>Label</key>
-  <string>mongodb</string>
-  <key>ProgramArguments</key>
-  <array>
-    <string>/usr/local/mongodb/bin/mongod</string>
-  </array>
-  <key>RunAtLoad</key>
-  <true/>
-  <key>KeepAlive</key>
-  <true/>
-  <key>WorkingDirectory</key>
-  <string>/usr/local/mongodb</string>
-  <key>StandardErrorPath</key>
-  <string>/var/log/mongodb/error.log</string>
-  <key>StandardOutPath</key>
-  <string>/var/log/mongodb/output.log</string>
-</dict>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">  
+<plist version="1.0">  
+<dict>  
+    <key>Label</key>
+    <string>___.mongo</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/0works/mongodb/bin/mongod</string>
+        <string>--dbpath</string>
+        <string>/0works/mongodb/data/db</string>
+        <string>--logpath</string>
+        <string>/0works/mongodb/data/mongodb.log</string>
+    </array>
+</dict>  
 </plist>
+
 ```
-Load above job.
+Load above code.
 ```
-$ sudo launchctl load /Library/LaunchDaemons/mongodb.plist
+$ launchctl load /Library/LaunchAgents/___.mongo.plist
+$ launchctl start ___.mongo
+```
+Check running
+```
+$ launchctl list
 
 $ ps -ef | grep mongo
     0    71     1   0  1:50PM ??         0:22.26 /usr/local/mongodb/bin/mongod
