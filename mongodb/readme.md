@@ -112,6 +112,7 @@ MongoDB shell version: 2.2.3
 ```
 ###5. Auto Start MongoDB
 
+***Create xxx.plist file***
 ```
 $ sudo vim /Library/LaunchAgents/___.mongo.plist
 ```
@@ -139,12 +140,12 @@ Puts following content :
 </plist>
 
 ```
-Load above code.
+***Load above code***
 ```
 $ launchctl load /Library/LaunchAgents/___.mongo.plist
 $ launchctl start ___.mongo
 ```
-Check running
+***Check running***
 ```
 $ launchctl list
 
