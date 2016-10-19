@@ -12,3 +12,5 @@ Seven best Node.js frameworks of 2016
 [https://codeplanet.io/seven-best-node-js-frameworks-2016/](https://codeplanet.io/seven-best-node-js-frameworks-2016/)
 
 [http://www.nanoscale.io/platform/](http://www.nanoscale.io/platform/)
+
+[http://devhub.nanoscale.io/docs/apis](http://devhub.nanoscale.io/docs/apis)
