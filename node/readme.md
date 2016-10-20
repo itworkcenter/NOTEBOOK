@@ -39,7 +39,7 @@
 ||LoopBack	|Express	|Hapi	|Sails|	Restify	|Meteor|
 |---|---|---|---|---|---|---|
 |Type|	API framework|	HTTP server library|	HTTP server framework|	Web MVC framework|	REST HTTP library|	Full-stack JavaScript app platform|
-|Top Features|	Enterprise connectivity, API Explorer, generators, client SDKs, websocket microservices	|HTTP routing, middleware	|Modularity, security	|Rails |familiarity, MVC	|Simplicity, REST routing	|Universal JavaScript, reactive rendering, websocket microservices|
+|Top Features|	Enterprise connectivity, API Explorer, generators, client SDKs, websocket microservices	|HTTP routing, middleware	|Modularity, security	|Rails familiarity, MVC	|Simplicity, REST routing	|Universal JavaScript, reactive rendering, websocket microservices|
 |Suitable For|	Web apps, APIs	|Simple web apps	|Web apps, APIs	|Web apps, APIs	|Simple REST APIs	|Web apps|
 |Github Stars|	5k	|19k	|4k	|10k	|3k	|28k|
 |Support	|StrongLoop|	StrongLoop	|N/A	|N/A	|N/A	|Meteor Development Group|
