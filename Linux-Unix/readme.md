@@ -8,3 +8,10 @@
 
 [http://launchd.info/](http://launchd.info/)
 
+#Tools
+|name|note|
+|---|---|
+|putty|SSH client|
+|Xftp|file upload|
+|XShell|command|
+
