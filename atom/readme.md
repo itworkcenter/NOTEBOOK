@@ -10,7 +10,10 @@
 
 Step1. Download package.
 
-Step2. Copy package to /usr/username/.atom/packages/
+Step2. Copy package to /usr/username/.atom/packages/. 
+```
+>cp -R ~Downloads/pacages  ~/.atom/packages/
+```
 
 Step3. 
 ```
