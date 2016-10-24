@@ -2,6 +2,7 @@
 |name|note|e.g.|
 |---|---|---|
 |mv|file rename|***mv file1 file2***|
+|cp|file copy|***cp -R file1 file2***|
 
 #vi editor
 [https://www.tutorialspoint.com/unix/unix-vi-editor.htm](https://www.tutorialspoint.com/unix/unix-vi-editor.htm)
