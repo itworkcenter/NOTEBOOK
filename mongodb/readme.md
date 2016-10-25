@@ -162,6 +162,8 @@ $ ps -ef | grep mongo
 
 
 #Mongodb import/export data
+
+**Use mongoimport**
 ```
 mongoimport --db users --collection contacts --type csv --headerline --file /opt/backups/contacts.csv
 mongoimport --db users --type csv --headerline --file /opt/backups/contacts.csv
