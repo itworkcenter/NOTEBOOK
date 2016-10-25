@@ -159,3 +159,13 @@ $ ps -ef | grep mongo
     0    71     1   0  1:50PM ??         0:22.26 /usr/local/mongodb/bin/mongod
   501   542   435   0  2:23PM ttys000    0:00.00 grep mongo
 ```
+
+
+#Mongodb import/export data
+```
+mongoimport --db users --collection contacts --type csv --headerline --file /opt/backups/contacts.csv
+mongoimport --db users --type csv --headerline --file /opt/backups/contacts.csv
+mongoimport --db users --collection contacts --file contacts.json
+mongoimport --db sales --collection contacts --stopOnError --dbpath /srv/mongodb/
+mongoimport --host mongodb1.example.net --port 37017 --username user --password pass --collection contacts --db marketing --file /opt/backups/mdb1-examplenet.json
+```
