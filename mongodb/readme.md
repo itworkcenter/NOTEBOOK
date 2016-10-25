@@ -39,8 +39,13 @@ C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
 ```
 **You can set up Environment Variables for "mongod.exe" in Window System.**
 
+1. User variables
 ```
-path="C:\MongoDb\bin>mongod.exe"
+path="C:\MongoDb\bin\"
+```
+2. System variables
+```
+path="C:\MongoDb\bin\"
 ```
 **You can set up Window Service for "mongod.exe",like below:**
 
