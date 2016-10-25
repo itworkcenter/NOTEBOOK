@@ -43,6 +43,7 @@ C:\MongoDb\bin>mongod.exe -f ..\mongod.cfg
 ```
 path="C:\MongoDb\bin\"
 ```
+
 2. System variables
 ```
 path="C:\MongoDb\bin\"
