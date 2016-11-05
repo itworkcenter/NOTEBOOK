@@ -2,7 +2,7 @@
 
 ## 'E11000 duplicate key error collection: meter.users index: username_1 dup key: { : null }'
 
-***solution:***
+***Solution:***
 ```
 >mongo
 >use meter
