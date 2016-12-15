@@ -1,6 +1,6 @@
 # NPM Command
 
-## Uninstall package
+## Uninstall global package
 ```
 $ npm ls -g --depth=0
 C:\Users\think-pc\AppData\Roaming\npm
