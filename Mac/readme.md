@@ -1,6 +1,8 @@
 #Mac commond
 |name|detail|notice|
 |---|---|---|
+|refresh|cmd+r||
+|force refresh|shift+cmd+r||
 |automator|||
 |touch|create new, empty files.||
 |lsof|sudo lsof -i :27017||
