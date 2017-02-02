@@ -84,6 +84,12 @@ connecting to: test
 { "_id" : ObjectId(5879b0f65a56a454), "a" : 1 }
 >
 ```
+4. **Using window batch file to lauch**
+```
+@echo off
+echo "mongodb is launching"
+mongod -f "C:\Program Files\MongoDB\mongod.cfg"
+```
 ## Install MongoDB on Mac
 
 ###2. MongoDB data
