@@ -13,10 +13,12 @@ Step1. Download package.
 
 Step2. Copy package to /usr/username/.atom/packages/. 
 ```
->cp -R ~Downloads/packages  ~/.atom/packages/
+>cp -R ~Downloads/your-package  ~/.atom/packages/
 ```
 
 Step3. 
 ```
+> cd ~Downloads/your-package
+>
 > npm install
 ```
