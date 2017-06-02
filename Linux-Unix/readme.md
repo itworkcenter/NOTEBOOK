@@ -13,9 +13,9 @@
 
 # Tools
 
-|name|note|
-|---|---|
+|Name|Note|Tips|
+|---|---|---|
 |putty|SSH client|
 |Xftp|file upload|
-|XShell|command|
+|XShell|command| Free License [https://www.netsarang.com/download/free_license.html](https://www.netsarang.com/download/free_license.html)
 
