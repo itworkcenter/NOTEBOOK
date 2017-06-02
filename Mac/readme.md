@@ -18,6 +18,7 @@
 |launchctl remove|||
 |ls -l|review file permission||
 |crontab|run on a regular schedule||
+|switch to root|sudo su -||
 
 # Create service
 
