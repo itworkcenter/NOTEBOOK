@@ -1,12 +1,17 @@
 # Command
 
-|name|note|e.g.|
+|Name|Note|e.g.|
 |---|---|---|
 |mv|file rename|***mv file1 file2***|
 |cp|file copy|***cp file1 file2*** ; ***cp -R directory1 directory2***|
 |ls|list file|
 |ls -l| list file with property|
 |chmod| change mode|
+
+# Network
+|Name|Note|e.g.|
+|---|---|---|
+|netstat -ntlp| show listen port|
 
 # vi editor
 
