@@ -10,6 +10,8 @@
 |apachectl graceful|
 
 # httpd.conf
+
 ***Location: /etc/apache2/httpd.conf***
+
 |Name|Description|Tip|
 |---|---|---|
