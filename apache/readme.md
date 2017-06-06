@@ -9,6 +9,7 @@
 |apachectl stop|
 |apachectl graceful|
 
-# http.conf
+# httpd.conf
+***Location: /etc/apache2/httpd.conf***
 |Name|Description|Tip|
 |---|---|---|
