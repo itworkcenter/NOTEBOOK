@@ -2,6 +2,7 @@
 
 |Name|Note|e.g.|
 |---|---|---|
+|sudo su -|swich to root|
 |mv|file rename|***mv file1 file2***|
 |cp|file copy|***cp file1 file2*** ; ***cp -R directory1 directory2***|
 |ls|list file|
