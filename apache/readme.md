@@ -1,6 +1,6 @@
 # Configuration
 
-|Command|Description|Tip|
+|Name|Description|Tip|
 |---|---|---|
 |httpd|To find the Apache version||
 |apachectl start|
@@ -8,3 +8,7 @@
 |apachectl -k restart|
 |apachectl stop|
 |apachectl graceful|
+
+# http.conf
+|Name|Description|Tip|
+|---|---|---|
