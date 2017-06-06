@@ -2,23 +2,24 @@
 
 |name|detail|notice|
 |---|---|---|
-|refresh|cmd+r||
-|force refresh|shift+cmd+r||
-|automator|||
-|touch|create new, empty files.||
-|lsof|sudo lsof -i :27017||
-|kill|sudo kill -9 85||
-|whoami|review user||
+|refresh|cmd+r|
+|force refresh|shift+cmd+r|
+|automator|
+|touch|create new, empty files.|
+|lsof|sudo lsof -i :27017|
+|lsof -i -P | grep -i "listen"|Listen port|
+|kill|sudo kill -9 85|
+|whoami|review user|
 |chown|change permission|chown username|
-|chmod|change permission||
-|launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd. ||
-|launchctl load|||
-|launchctl start|||
-|launchctl list|||
-|launchctl remove|||
-|ls -l|review file permission||
-|crontab|run on a regular schedule||
-|sudo su -|switch to root||
+|chmod|change permission|
+|launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd. |
+|launchctl load||
+|launchctl start|
+|launchctl list|
+|launchctl remove|
+|ls -l|review file permission|
+|crontab|run on a regular schedule|
+|sudo su -|switch to root|
 
 # Create service
 
