@@ -7,7 +7,7 @@
 |automator|
 |touch|create new, empty files.|
 |lsof|sudo lsof -i :27017|
-|lsof -i -P | grep -i "listen"|Listen port|
+|lsof -i -P \| grep -i "listen"|Listen port|
 |kill|sudo kill -9 85|
 |whoami|review user|
 |chown|change permission|chown username|
