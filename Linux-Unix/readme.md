@@ -8,7 +8,7 @@
 |ls|list file|
 |ls -l| list file with property|
 |chmod| change mode|
-|ufw app list| uncompleted firewall|
+|ufw app list| uncomplicated firewall|
 
 # Network
 |Name|Note|e.g.|
