@@ -1,3 +1,10 @@
+# Ubuntu Command
+
+|Name|Note|e.g.|
+|---|---|---|
+|sudo apt-get update|system update|
+|sudo apt-get upgrade| system upgrade|
+
 #To install Node.js, type the following command in your terminal:
 
 **sudo apt-get install nodejs**
