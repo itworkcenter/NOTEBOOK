@@ -15,6 +15,12 @@
 # Network
 |Name|Note|e.g.|
 |---|---|---|
+|sudo ufw status|
+|sudo ufw allow 'Nginx HTTP'|
+
+# Firewall setting
+|Name|Note|e.g.|
+|---|---|---|
 |netstat -ntlp| show listen port|
 
 # vi editor
