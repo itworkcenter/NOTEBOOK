@@ -9,6 +9,7 @@
 |ls -l| list file with property|
 |chmod| change mode|
 |ufw app list| uncomplicated firewall|
+|service --status-all|all service list|
 
 # Network
 |Name|Note|e.g.|
