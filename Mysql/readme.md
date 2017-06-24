@@ -28,3 +28,4 @@ mysql>
 |show database;| show list|
 |create database database_nanme;|create|
 |drop database database_name;| Delete|
+|exit|
