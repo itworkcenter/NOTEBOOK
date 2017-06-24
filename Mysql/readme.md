@@ -1,3 +1,7 @@
+# Installation guidline
+```
+> sudo apt-get install mysql-server
+```
 # Command
 |Name|Note|e.g.|
 |---|---|---|
