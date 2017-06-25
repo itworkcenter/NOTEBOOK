@@ -8,7 +8,7 @@ After LAMP is ready.
 ```
 > sudo a2enmod rewrite
 ```
-AllowOverride change  none to All
+**AllowOverride** change  **none** to **All**
 ```
 > vi /etc/apache2/apache2.conf
 
@@ -22,7 +22,7 @@ AllowOverride change  none to All
 > sudo service apache2 restart
 ```
 ### 2.Change Default Directory
-"/var/www/html" change to yourpath
+**/var/www/html** change to **yourpath**
 ```
 > vi /etc/apache2/apache2.conf
 <Directory /var/www/html>
