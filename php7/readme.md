@@ -13,7 +13,7 @@ Then you can install the package your to-be-deployed application requires.
 For example, if you want to deploy your application based on the ***LAMP*** stack, usually, you can install the below packages after installing Apache:
 ```
 sudo apt-get install -y apache2
-sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-zip
+sudo apt-get install -y php7.0 libapache2-mod-php7.0 php7.0-cli php7.0-common php7.0-mbstring php7.0-gd php7.0-intl php7.0-xml php7.0-mysql php7.0-mcrypt php7.0-zip php7.0-curl
 ```
 Alternatively, if you want to deploy your application based on the ***LEMP*** stack, you can install the following packages after installing Nginx:
 ```
