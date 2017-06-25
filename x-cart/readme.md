@@ -4,18 +4,33 @@ After LAMP is ready.
 
 ## Setting up Apache
 
-Enabling mod_rewrite
+### 1.Enabling mod_rewrite
 ```
 > sudo a2enmod rewrite
+```
+AllowOverride change  none to All
+```
 > vi /etc/apache2/apache2.conf
 
 <Directory /var/www/html>
                 Options Indexes FollowSymLinks MultiViews
-                ***AllowOverride All***
+                AllowOverride All
                 Order allow,deny
                 allow from all
 </Directory>
 
+> sudo service apache2 restart
+```
+### 2.Change Default Directory
+"/var/www/html" change to yourpath
+```
+> vi /etc/apache2/apache2.conf
+<Directory /var/www/html>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride All
+                Order allow,deny
+                allow from all
+</Directory>
 > sudo service apache2 restart
 ```
 
