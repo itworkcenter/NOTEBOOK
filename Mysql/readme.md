@@ -21,6 +21,11 @@ Type 'help;' or '\h' for help. Type '\c' to clear the current input statement.
 
 mysql> 
 ```
+3. Set up security.
+```
+> service mysqld restart
+> mysql_secure_installation
+```
 # Command
 |Name|Note|e.g.|
 |---|---|---|
