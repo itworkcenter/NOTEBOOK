@@ -10,3 +10,4 @@ ____
 |Order|Note|e.g.|
 |---|---|---|
 |docker ps|List container|
+|docker rmi ImageName|Remove|
