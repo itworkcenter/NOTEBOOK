@@ -11,4 +11,4 @@ ____
 |---|---|---|
 |docker ps|List container|
 |docker rmi ImageName|Remove image|
-|docker rm Container|Remove container|
+|docker rm ContainerName|Remove container|
