@@ -10,4 +10,5 @@ ____
 |Order|Note|e.g.|
 |---|---|---|
 |docker ps|List container|
-|docker rmi ImageName|Remove|
+|docker rmi ImageName|Remove image|
+|docker rm Container|Remove container|
