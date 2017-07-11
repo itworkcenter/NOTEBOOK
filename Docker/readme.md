@@ -12,6 +12,7 @@ ____
 |docker ps|List container|
 |docker rmi ImageName|Remove image|
 |docker rm ContainerName|Remove container|
+|docker run -i -t --rm ubuntu /bin/bash|switch to ubuntu system|
 
 ```
 #!/bin/bash
