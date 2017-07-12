@@ -11,6 +11,7 @@
 |chmod| change mode|
 |ufw app list| uncomplicated firewall|
 |service --status-all|all service list|
+|touch filename| quick to create a file|
 
 # Network
 |Name|Note|e.g.|
