@@ -20,6 +20,7 @@
 |ls -l|review file permission|
 |crontab|run on a regular schedule|
 |sudo su -|switch to root|
+|Command+Option+D|automatically hide or show the Docker|
 
 # Create service
 
