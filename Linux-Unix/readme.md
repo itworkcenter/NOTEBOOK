@@ -10,6 +10,7 @@
 |ls -l| list file with property|
 |chmod| change mode|
 |ufw app list| uncomplicated firewall|
+|ufw status|check firewall status|
 |service --status-all|all service list|
 |touch filename| quick to create a file|
 
