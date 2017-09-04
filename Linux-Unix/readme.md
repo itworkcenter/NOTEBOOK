@@ -16,7 +16,7 @@
 |compgen| user list|
 |adduser|add a user|
 |deluser|delete a user|
-|moduser|moduser -l newuser olduser|
+|usermod|usermod -l newuser olduser|
 
 # Network
 |Name|Note|e.g.|
