@@ -14,6 +14,9 @@
 |service --status-all|all service list|
 |touch filename| quick to create a file|
 |compgen| user list|
+|adduser|add a user|
+|deluser|delete a user|
+|moduser|moduser -l newuser olduser|
 
 # Network
 |Name|Note|e.g.|
