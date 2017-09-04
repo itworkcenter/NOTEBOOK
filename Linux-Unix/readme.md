@@ -13,7 +13,7 @@
 |ufw status|check firewall status|
 |service --status-all|all service list|
 |touch filename| quick to create a file|
-|compgen| user list|
+|compgen| user list|compgen -u|
 |adduser|add a user|
 |deluser|delete a user|
 |usermod|usermod -l newuser olduser|
