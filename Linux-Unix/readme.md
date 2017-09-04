@@ -13,6 +13,7 @@
 |ufw status|check firewall status|
 |service --status-all|all service list|
 |touch filename| quick to create a file|
+|compgen| user list|
 
 # Network
 |Name|Note|e.g.|
