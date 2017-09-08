@@ -8,7 +8,7 @@
 |cp|file copy|***cp file1 file2*** ; ***cp -R directory1 directory2***|
 |ls|list file|
 |ls -l| list file with property|
-|chmod| change mode|
+|chmod| chmod is used to change the permissions of files or directories.|chmod 644 file.htm |
 |chown|chown command changes the user and/or group ownership of for given file.|chown owner-user file  chown owner-user:owner-group file chown owner-user:owner-group directory chown options owner-user:owner-group file|
 |ufw app list| uncomplicated firewall|
 |ufw status|check firewall status|
