@@ -9,6 +9,7 @@
 |ls|list file|
 |ls -l| list file with property|
 |chmod| change mode|
+|chown|chown command changes the user and/or group ownership of for given file.|chown owner-user file  chown owner-user:owner-group file chown owner-user:owner-group directory chown options owner-user:owner-group file|
 |ufw app list| uncomplicated firewall|
 |ufw status|check firewall status|
 |service --status-all|all service list|
