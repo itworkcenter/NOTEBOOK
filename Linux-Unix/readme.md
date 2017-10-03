@@ -25,6 +25,7 @@
 |---|---|---|
 |sudo ufw status|
 |sudo ufw allow 'Nginx HTTP'|
+|sudo ufw allow 25|
 
 # Firewall setting
 |Name|Note|e.g.|
