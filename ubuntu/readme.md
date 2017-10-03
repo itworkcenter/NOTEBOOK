@@ -4,6 +4,7 @@
 |---|---|---|
 |sudo apt-get update|system update|
 |sudo apt-get upgrade| system upgrade|
+|apt list --installed|
 
 #To install Node.js, type the following command in your terminal:
 
