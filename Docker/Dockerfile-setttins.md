@@ -11,7 +11,9 @@ COPY package.json .
 
 RUN npm install
 
-ENV http_proxy
+ENV http_proxy=http://infoprx2:8080
+ENV https_proxy=http://infoprx2:8080
+RUN apt-get update && apt-get install -y curl vim
 
 COPY . .
 
