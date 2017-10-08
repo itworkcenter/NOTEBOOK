@@ -1,4 +1,6 @@
-## Nginx change port tutorial
+## Nginx virtual hosting
+
+### Create the Second Server Block File 
 
 ### Copy default to new domain to config
 
@@ -27,7 +29,7 @@ server {
         }
 }
 ```
-Only one of our server blocks on the server can have the default_server option enabled.
+**Only one of our server blocks on the server can have the default_server option enabled.**
 
 server non-matching requests, so we'll remove the default_server from this and the next server block. 
 
