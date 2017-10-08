@@ -27,7 +27,7 @@
 |sudo ufw allow 'Nginx HTTP'|
 |sudo ufw allow 25|
 
-# Firewall setting
+# Check listen port
 |Name|Note|e.g.|
 |---|---|---|
 |netstat -ntlp| show listen port|
