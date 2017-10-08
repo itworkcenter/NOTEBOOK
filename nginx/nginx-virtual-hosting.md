@@ -1,12 +1,12 @@
-# Nginx change port tutorial
+## Nginx change port tutorial
 
-## Copy default to new domain to config
+### Copy default to new domain to config
 
 ```
 > sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/example.com
 ```
 
-## Edit domain configuration
+### Edit domain configuration
 
 ```
 > sudo nano /etc/nginx/sites-available/example.com
@@ -41,13 +41,13 @@ server {
 }
 ```
 
-## Check default_server
+### Check default_server
 
 ```
 > grep -R default_server /etc/nginx/sites-enabled/
 ```
 
-## Adding domain alias
+### Adding domain alias
 /etc/nginx/sites-available/example.com
 ```
 server {
@@ -65,14 +65,14 @@ server {
 }
 ```
 
-## Create the Second Server Block File 
+### Create the Second Server Block File 
 Repeat above step again.
 
-## Enable your Server Blocks and Restart Nginx
+### Enable your Server Blocks and Restart Nginx
 ```
 > sudo ln -s /etc/nginx/sites-available/example.com /etc/nginx/sites-enabled/
 ```
-## avoid a possible hash bucket memory problem to config "server_names_hash_bucket_size"
+### avoid a possible hash bucket memory problem to config "server_names_hash_bucket_size"
 ```
 > sudo nano /etc/nginx/nginx.conf
 ```
@@ -87,17 +87,17 @@ http {
 }
 ```
 
-## Check syntax errors for Nginx
+### Check syntax errors for Nginx
 ```
 > sudo nginx -t
 ```
-## Restart Nginx 
+### Restart Nginx 
 If no problems were found, restart Nginx to enable your changes:
 ```
 > sudo systemctl restart nginx
 ```
 
-## Modify your local hosts files for testing.
+### Modify your local hosts files for testing.
 
 ```
 > sudo nano /etc/hosts
