@@ -1,5 +1,12 @@
 ## Nginx virtual hosting
 
+### Check listen port
+```
+> netstat -ntlp
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name
+tcp        0      0 127.0.0.1:3306          0.0.0.0:*               LISTEN      698/mysqld  
+```
+
 ### Create the Second Server Block File 
 
 ### Copy default to new domain to config
