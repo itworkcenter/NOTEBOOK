@@ -1,4 +1,6 @@
-# 
+# connect ECONNREFUSED 151.101.196.162:443
+
+The problem is that "https://registry.npmjs.org/" SSL don's connect. The resulation is below:
 
 ## ERROR FROM
 
