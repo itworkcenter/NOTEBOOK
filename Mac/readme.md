@@ -21,6 +21,7 @@
 |crontab|run on a regular schedule|
 |sudo su -|switch to root|
 |Command+Option+D|automatically hide or show the Docker|
+|dsenableroot| add root user|
 |dsenableroot -d|disable root user|
 
 # Create service
