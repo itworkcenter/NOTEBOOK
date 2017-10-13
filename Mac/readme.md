@@ -10,7 +10,7 @@
 |lsof -i -P \| grep -i "listen"|Listen port|
 |kill|sudo kill -9 85|
 |whoami|review current user|
-|chown|change permission|chown username|
+|chown|change permission|sudo chown -R yourid:yourgroup local|
 |chmod|change permission|
 |launchctl|interfaces with launchd to load, unload daemons/agents and generally control launchd. |
 |launchctl load||
