@@ -34,6 +34,8 @@ $ pm2 start app.js
 *Generating a startup script*
 [http://pm2.keymetrics.io/docs/usage/startup/](http://pm2.keymetrics.io/docs/usage/startup/)
 
+[https://expressjs.com/en/advanced/pm.html#pm2](https://expressjs.com/en/advanced/pm.html#pm2)
+
 ```
 # Detect available init system, generate configuration and enable startup system
 pm2 startup
@@ -42,3 +44,6 @@ pm2 startup
 ```
 pm2 unstartup
 ```
+
+### 2.Forever
+
