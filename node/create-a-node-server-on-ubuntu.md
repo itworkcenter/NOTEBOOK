@@ -14,7 +14,7 @@ curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
 ## Step 2 Process managers for Express apps
-1. ###PM2
+### 1. PM2
 
 *Installation*
 ```
