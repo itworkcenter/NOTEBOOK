@@ -16,11 +16,11 @@ sudo apt-get install -y nodejs
 ## Step 2 Process managers for Express apps
 1. ###PM2
 
-Installation
+*Installation*
 ```
 $ [sudo] npm install pm2 -g
 ```
-Usage
+*Usage*
 ```
 $ pm2 start app.js
 [PM2] restartProcessId process id 0
@@ -30,4 +30,14 @@ $ pm2 start app.js
 │ my-app   │ 0  │ fork │ 64029 │ online │ 1       │ 0s     │ 17.816 MB   │ disabled │
 └──────────┴────┴──────┴───────┴────────┴─────────┴────────┴─────────────┴──────────┘
  Use the `pm2 show <id|name>` command to get more details about an app.
+```
+*Generating a startup script*
+
+```
+# Detect available init system, generate configuration and enable startup system
+pm2 startup
+```
+*Disabling startup system*
+```
+pm2 unstartup
 ```
