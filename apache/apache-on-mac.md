@@ -11,3 +11,8 @@ DocumentRoot "/Library/WebServer/Documents"
 ```
 AllowOverride All
 ```
+
+## Modify directory root permission
+```
+chown -R _www:_www 0projects/
+```
