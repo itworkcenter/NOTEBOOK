@@ -32,6 +32,7 @@ $ pm2 start app.js
  Use the `pm2 show <id|name>` command to get more details about an app.
 ```
 *Generating a startup script*
+[http://pm2.keymetrics.io/docs/usage/startup/](http://pm2.keymetrics.io/docs/usage/startup/)
 
 ```
 # Detect available init system, generate configuration and enable startup system
