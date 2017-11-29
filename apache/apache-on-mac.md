@@ -1,4 +1,10 @@
 # Installation Apache on mac.
+```
+> sudo apachectl start
+> apchectl -v
+Server version: Apache/2.4.27 (Unix)
+Server built:   Jul 15 2017 15:41:46
+```
 
 /etc/apache2/httpd.conf
 
