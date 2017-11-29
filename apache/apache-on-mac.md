@@ -16,7 +16,12 @@ DocumentRoot "/Library/WebServer/Documents"
 ```
 ## Change page default style
 Default page:
+
 ![alt text](imgs/apache-default-page.gif "Old Page Style")
+
+New page:
+
+![alt text](imgs/imgs/apache-new-page-style.png "Old Page Style")
 
 Reference-style: 
 /etc/apache2/httpd.conf
