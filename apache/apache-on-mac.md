@@ -48,3 +48,6 @@ chown -R _www:_www 0projects/
 > sudo vi/etc/hosts
 127.0.0.1 project
 ```
+## Change default page theme
+
+[http://adamwhitcroft.com/apaxy/](http://adamwhitcroft.com/apaxy/)
