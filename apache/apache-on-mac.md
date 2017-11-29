@@ -6,18 +6,20 @@ Server version: Apache/2.4.27 (Unix)
 Server built:   Jul 15 2017 15:41:46
 ```
 
-/etc/apache2/httpd.conf
 
-### Changing website root
+
+## Change website root
+/etc/apache2/httpd.conf
 ```
 DocumentRoot "/Library/WebServer/Documents"
 <Directory "/Library/WebServer/Documents">
 ```
-### AllowOverride All
+## Change page default style
+1. AllowOverride All
 ```
 AllowOverride All
 ```
-### Change Indexes
+2. Change Indexes
 Change:
 ```
 Options FollowSymLinks Multiviews
@@ -27,7 +29,7 @@ to:
 Options FollowSymLinks Multiviews Indexes
 ```
 
-## Modify directory root permission
+3. Modify directory root permission
 ```
 chown -R _www:_www 0projects/
 ```
