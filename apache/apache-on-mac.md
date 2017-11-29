@@ -12,10 +12,12 @@ DocumentRoot "/Library/WebServer/Documents"
 AllowOverride All
 ```
 ### Change Indexes
-```
 Change:
+```
 Options FollowSymLinks Multiviews
+```
 to:
+```
 Options FollowSymLinks Multiviews Indexes
 ```
 
