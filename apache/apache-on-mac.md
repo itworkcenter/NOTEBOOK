@@ -15,6 +15,7 @@ DocumentRoot "/Library/WebServer/Documents"
 <Directory "/Library/WebServer/Documents">
 ```
 ## Change page default style
+/etc/apache2/httpd.conf
 1. AllowOverride All
 ```
 AllowOverride All
