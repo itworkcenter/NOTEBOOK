@@ -43,3 +43,8 @@ Options FollowSymLinks Multiviews Indexes
 ```
 chown -R _www:_www 0projects/
 ```
+## Change 127.0.0.1 to customize domain
+```
+> sudo vi/etc/hosts
+127.0.0.1 project
+```
