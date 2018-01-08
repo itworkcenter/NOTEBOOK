@@ -1,5 +1,10 @@
 # Install Sql Server
-##Step 1
+##1, Download SQL Server
+```
+docker pull microsoft/mssql-server-linux
+```
 
-##Step 2
+##2, Launch the Docker Image
+```
 docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Abcdefg123' -p 1433:1433 microsoft/mssql-server-linux
+```
