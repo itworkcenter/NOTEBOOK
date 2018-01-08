@@ -11,3 +11,7 @@ docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Abcdefg1
 ```
 sudo npm install -g sql-cli
 ```
+## 4, Connect to SQL Server
+```
+## 4, mssql -u sa -p Abcdefg123
+```
