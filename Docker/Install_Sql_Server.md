@@ -22,3 +22,9 @@ mssql -u sa -p Abcdefg123
 ```
 select @@version
 ```
+
+## Still run container 
+
+```
+docker run -d --name sql_server_demo -e 'ACCEPT_EULA=Y' -e 'SA_PASSWORD=Abcdefg123' -p 1433:1433 -dit --restart unless-stopped microsoft/mssql-server-linux
+```
