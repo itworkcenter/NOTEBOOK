@@ -14,6 +14,7 @@ ____
 |docker rm ContainerName|Remove container|
 |docker run -i -t --rm ubuntu /bin/bash|switch to ubuntu system|
 |docker container start ContainerName|
+|docker image ls|List all image|
 
 ```
 #!/bin/bash
