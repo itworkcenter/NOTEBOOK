@@ -13,5 +13,5 @@ sudo npm install -g sql-cli
 ```
 ## 4, Connect to SQL Server
 ```
-## 4, mssql -u sa -p Abcdefg123
+mssql -u sa -p Abcdefg123
 ```
