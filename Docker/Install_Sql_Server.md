@@ -15,3 +15,8 @@ sudo npm install -g sql-cli
 ```
 mssql -u sa -p Abcdefg123
 ```
+## 5, Run a Quick Test
+
+```
+select @@version
+```
