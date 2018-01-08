@@ -10,6 +10,7 @@ ____
 |Order|Note|e.g.|
 |---|---|---|
 |docker ps|List container|
+|docker ps [--all , -a]	|Show all containers (default shows just running)|
 |docker rmi ImageName|Remove image|
 |docker rm ContainerName|Remove container|
 |docker run -i -t --rm ubuntu /bin/bash|switch to ubuntu system|
