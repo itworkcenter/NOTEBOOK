@@ -5,7 +5,7 @@ Download MySQL Community Server
 [https://dev.mysql.com/downloads/mysql/](https://dev.mysql.com/downloads/mysql/)
 
 
-## Startup
+## Bootstrap
 
 On OS X to start/stop/restart MySQL pre 5.7  from the command line:
  ```
