@@ -1,9 +1,6 @@
 # docker for gogs
 
-## 1. Installation mysql
-[docker-for-mysql](./docker-for-mysql.md)
-
-## 2. Installation gogs
+## 1. Installation gogs
 ```
 # Pull image from Docker Hub.
 $ docker pull gogs/gogs
@@ -17,6 +14,14 @@ $ docker run --name=gogs -p 10022:22 -p 10080:3000 -v /0docker/gogs:/data gogs/g
 # Use `docker start` if you have stopped it.
 $ docker start gogs
 ```
+## 2. Installation mysql
+[docker-for-mysql](./docker-for-mysql.md)
+
+```
+docker run -dit --restart always --name=mysql --net=gogs -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+```
+Note: assign same network from which container, for example: "--net=gogs"
+
 ## 3.[optional] daemon for gogs and mysql
 
 ```
