@@ -18,7 +18,7 @@ $ docker start gogs
 [docker-for-mysql](./docker-for-mysql.md)
 
 ```
-docker run -dit --restart always --name=mysql --net=gogs -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -dit --restart always --name=gogs-mysql --net=gogs -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
 ```
 Note: assign same network from which container, for example: "--net=gogs"
 
