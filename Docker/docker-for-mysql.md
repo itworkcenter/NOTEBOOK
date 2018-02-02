@@ -6,7 +6,7 @@ docker pull mysql
 ```
 ## 2. Running
 ```
-docker run -d --name=mysql -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -d --name=gogs-mysql -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
 ```
 -v local_database_address: docker_mysql_database_address
 
