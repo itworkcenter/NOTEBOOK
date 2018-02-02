@@ -20,5 +20,5 @@ $ mysql -u root -p
 ```
 ## 4. Daemon for mysql
 ```
-docker run -dit --restart always --name=gogs-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -dit --restart always --name=gogs-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=11 -v /0database/gogs-mysql:/var/lib/mysql mysql
 ```
