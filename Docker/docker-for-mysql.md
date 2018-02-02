@@ -6,7 +6,7 @@ docker pull mysql
 ```
 ## 2. Running
 ```
-docker run -d --name=mysql --ip="172.17.0.2" -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -d --name=mysql -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
 ```
 -v local_database_address: docker_mysql_database_address
 
