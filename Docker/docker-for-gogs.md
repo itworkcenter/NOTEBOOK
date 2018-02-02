@@ -18,9 +18,11 @@ $ docker start gogs
 [docker-for-mysql](./docker-for-mysql.md)
 
 ```
-docker run -dit --restart always --name=gogs-mysql --net=gogs -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -dit --restart always --name=gogs-mysql --net='container:gogs' -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
 ```
-Note: assign same network from which container, for example: "--net=gogs"
+Note: assign same network from which container, for example: --net='container:gogs'
+
+–net=”container:name or id” 新创建的容器和已经存在的一个容器共享一个IP网络资源
 
 ## 3.[optional] daemon for gogs and mysql
 
