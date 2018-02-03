@@ -14,10 +14,20 @@ $ docker pull gogs/gogs
 
 # Create local directory for volume.
 $ mkdir -p /var/gogs
-
+```
+## Running
+Option 1 (map local host port)
+```
 # Use `docker run` for the first time.
 $ docker run -dit --restart always --name=gogs -p 10022:22 -p 10080:3000 -v /0docker/gogs:/data gogs/gogs
+```
+Option 2 (Setting --link same container)
+```
+docker run -dit --restart always --name=gogs --link gogs-mysql:mysql -p 10022:22 -p 10080:3000 -v /0docker/gogs:/data gogs/gogs
 
+```
+
+```
 # Use `docker start` if you have stopped it.
 $ docker start gogs
 ```
