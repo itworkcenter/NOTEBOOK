@@ -36,3 +36,10 @@ $ docker start gogs
 ```
 docker run -dit --restart always --name=gogs -p 10022:22 -p 10080:3000 -v /0docker/gogs:/data gogs/gogs
 ```
+
+
+## One-time installation
+```
+docker run -dit --restart always --name=gogs-mysql -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -dit --restart always --name=gogs --link gogs-mysql:mysql -p 10022:22 -p 10080:3000 -v /0docker/gogs:/data gogs/gogs
+```
