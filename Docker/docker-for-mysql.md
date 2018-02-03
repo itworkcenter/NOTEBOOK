@@ -5,8 +5,9 @@
 docker pull mysql
 ```
 ## 2. Running
+Option 1:(local host map port 3306)
 ```
-docker run -d --name=gogs-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
+docker run -dit --restart always -d --name=gogs-mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=11 -v /0database/mysql:/var/lib/mysql mysql
 ```
 -v local_database_address: docker_mysql_database_address
 
