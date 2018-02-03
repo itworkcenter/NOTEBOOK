@@ -4,3 +4,7 @@
 ```
 docker pull centos
 ```
+## 2. Running
+```
+docker run --name centos -v /0docker/centos:/ centos
+```
