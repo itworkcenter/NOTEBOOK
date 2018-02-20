@@ -20,3 +20,7 @@ SW1(config-if)#exit
 SW1(config)#int fastEthernet 1/0
 SW1(config-if)#switchport mode trunk
 ```
+Interface range port setting
+```
+interface range Fa1/0 - 15
+```
