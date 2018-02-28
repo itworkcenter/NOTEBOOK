@@ -24,3 +24,29 @@ Interface range port setting
 ```
 interface range Fa1/0 - 15
 ```
+## Setting Nat on Router cisco RT2911
+
+#Cisto router
+
+##Config NAT
+
+```
+> config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+RT2911-Edge(config)#
+
+```
+
+进入路由器后
+
+config t
+
+#把HTTPS服务发布出去
+ip nat inside source static tcp 10.100.103.xx（内网IP） 443(端口号） 47.180.184.xx（外网IP） 443（端口号）
+
+#把HTTP服务发布出去
+ip nat inside source static tcp 10.100.103.xx（内网IP） 80(端口号） 47.180.184.xx（外网IP） 80（端口号）
+
+
+#把整个服务器发布出去，所有端口都对公网开放。谨慎使用。
+ip nat inside source static 10.100.103.xx 47.180.184.xx
