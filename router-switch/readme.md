@@ -42,11 +42,22 @@ RT2911-Edge(config)#
 config t
 
 #把HTTPS服务发布出去
-ip nat inside source static tcp 10.100.103.xx（内网IP） 443(端口号） 47.180.184.xx（外网IP） 443（端口号）
+>ip nat inside source static tcp 10.100.103.xx（内网IP） 443(端口号） 47.180.184.xx（外网IP） 443（端口号）
 
 #把HTTP服务发布出去
-ip nat inside source static tcp 10.100.103.xx（内网IP） 80(端口号） 47.180.184.xx（外网IP） 80（端口号）
+>ip nat inside source static tcp 10.100.103.xx（内网IP） 80(端口号） 47.180.184.xx（外网IP） 80（端口号）
 
 
 #把整个服务器发布出去，所有端口都对公网开放。谨慎使用。
-ip nat inside source static 10.100.103.xx 47.180.184.xx
+>ip nat inside source static 10.100.103.xx 47.180.184.xx
+
+#保存
+>do wr
+
+#检查NAT配置
+```
+>config t
+Enter configuration commands, one per line.  End with CNTL/Z.
+RT2911-Edge(config)# do SHOW run | include nat
+```
+>do SHOW run|include nat
