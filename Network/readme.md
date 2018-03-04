@@ -8,12 +8,14 @@ To connect a Mac OS X system USB port to the console using the built-in OS X Ter
 2. Connect the OS X USB port to the router.
 
 3. Enter the following commands to find the OS X USB port number:
-
+```
 macbook:user$ cd /dev
 macbook:user$ ls -ltr /dev/*usb*
 crw-rw-rw- 1 root wheel 9, 66 Apr 1 16:46 tty.usbmodem1a21 
 DT-macbook:dev user$
+```
  
 4. Connect to the USB port with the following command followed by the router USB port speed:
-
+```
 macbook:user$ screen /dev/tty.usbmodem1a21 9600
+```
