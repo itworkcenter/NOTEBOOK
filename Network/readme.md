@@ -21,9 +21,11 @@ macbook:user$ screen /dev/tty.usbmodem1a21 9600
 ```
 
 
-将多个端口分配给单个 VLAN
+## 将多个端口分配给单个 VLAN
 可以将交换机上的多个接口分配给单个 VLAN。发出以下命令：
+```
 1. Switch(config)#interface range fastethernet [mod/slot - mod/slot]
 2. Switch(config-if-range)#switchport access vlan vlan_number
 3. Switch(config-if-range)#switchport mode access
 4. Switch(config-if-range)#no shut
+```
