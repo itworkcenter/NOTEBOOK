@@ -1,5 +1,7 @@
 # Centos7 forgot password
 
+来自： [https://jingyan.baidu.com/article/9225544642b73e851648f49d.html](https://jingyan.baidu.com/article/9225544642b73e851648f49d.html)
+
 CentOS7忘记root密码
 方法/步骤
 step 1
