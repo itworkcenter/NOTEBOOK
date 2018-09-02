@@ -92,7 +92,7 @@ mongod -f "C:\Program Files\MongoDB\mongod.cfg"
 ```
 ## Install MongoDB on Mac
 
-###2. MongoDB data
+### 1. MongoDB data
 ```
 $ sudo mkdir -p /data/db
 $ whoami
@@ -103,7 +103,7 @@ $ sudo chown mkyong /data/db
 Permissin is required to avoid following locking error :
 Unable to create/open lock file: /data/db/mongod.lock
 
-###3. Add mongodb/bin to $PATH
+### 2. Add mongodb/bin to $PATH
 Create a ~/.bash_profile file and assign /usr/local/mongodb/bin to $PATH environment variable, so that you can access Mongo’s commands easily.
 
 ```
@@ -116,13 +116,13 @@ $ vim .bash_profile
 export MONGO_PATH=/usr/local/mongodb
 export PATH=$PATH:$MONGO_PATH/bin
 
-##restart terminal
+## restart terminal
 
 $ mongo -version
 MongoDB shell version: 2.2.3
 
 ```
-###5. Auto Start MongoDB
+### 3. Auto Start MongoDB
 
 ***Create xxx.plist file***
 ```
