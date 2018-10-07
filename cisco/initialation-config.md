@@ -21,7 +21,7 @@ cisco(config-line)#login
 cisco(config-line)#exit
 cisco(config)#exit
 
-cisco#copy running-config startup-config //保存当前配置为下次启动配置
+cisco#copy running-config startup-config //保存当前配置为下次启动配置, 简写 > copy run start
 Destination filename [startup-config]? 
 Building configuration...
 [OK]
