@@ -1,5 +1,8 @@
-
-
+ ### 1. Connection
+```
+screen /dev/tty.usbmodem1a21 9600
+```
+### 2. Configration
 ```
 Router>enable //进入特权模式
 Router#conf t //进入全局模式，全拼 configure terminal
