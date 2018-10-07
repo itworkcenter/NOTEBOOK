@@ -22,4 +22,11 @@ Sending 5, 100-byte ICMP Echos to 8.8.8.8, timeout is 2 seconds:
 Success rate is 100 percent (5/5), round-trip min/avg/max = 16/16/16 ms
 
 Router(config-if)#
+
+
+Router(config-if)#int g0/1
+Router(config-if)#ip add
+Router(config-if)#ip address 192.168.2.1 255.255.255.0
+Router(config-if)#no shut
+Router(config-if)#no shutdown 
 ```
