@@ -16,3 +16,12 @@ Router# copy run start  //Full command: copy running-config startup-config
 Router# reload
 
 ```
+### Show ip interface
+
+```
+Router# show ip int brief  //Full command: show ip interface brief
+Interface                  IP-Address      OK? Method Status                Protocol
+Embedded-Service-Engine0/0 unassigned      YES NVRAM  administratively down down
+GigabitEthernet0/0         unassigned      YES NVRAM  up                    up
+GigabitEthernet0/1         unassigned      YES NVRAM  administratively down down
+```
