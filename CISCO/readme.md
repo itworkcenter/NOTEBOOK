@@ -14,7 +14,7 @@ Router# copy run start  //Full command: copy running-config startup-config
 Router# reload
 
 ```
-### Save command
+### Save Config
 ```
 Router# copy run start  //Full command: copy running-config startup-config 
 ```
