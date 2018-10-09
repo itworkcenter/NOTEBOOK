@@ -15,7 +15,7 @@ Router(config)# int g0/0
 Router(config-if)# no shut
 Router(config-if)# ip address dhcp
 Router(config-if)# 
-Router(config-if)# do ping www.google.com
+Router(config-if)# do ping www.google.com   //check
 ...
 Success rate is 100 percent(5/5)
 ...
@@ -30,7 +30,7 @@ Router(dhcp-config)# default-router 192.168.2.1
 Router(dhcp-config)# dns-server 8.8.8.8 // google dns
 Router(dhcp-config)# exit
 Router(config)# ip route 0.0.0.0 0.0.0.0 192.168.0.1
-Router(config)# do ping 192.168.0.1
+Router(config)# do ping 192.168.0.1  //check
 ...
 Success rate is 100 percent(5/5)
 ...
