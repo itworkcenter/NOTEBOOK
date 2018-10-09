@@ -1,8 +1,10 @@
 
 # Connection Cisco router to home router
 
+
 Your home router gateway is 192.168.0.1
 
+## Cisco Router config
 ```
 Router>
 Router> en
@@ -48,4 +50,8 @@ Router(config)# ip nat inside source list 1 interface g0/0 overload
 Router(config)# exit
 Router#
 Router# write //Save config
+```
+
+## Cisco Switch config
+```
 ```
